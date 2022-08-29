@@ -36,7 +36,7 @@ class BackgroundCarousel extends React.Component {
         // get current position of the scrollview
         const contentOffset = event.nativeEvent.contentOffset.x;
 
-        const selectedIndex = math.floor(contentOffset/viewSize)
+        const selectedIndex = Math.floor(contentOffset/viewSize)
         this.setState({selectedIndex});
     };
 
